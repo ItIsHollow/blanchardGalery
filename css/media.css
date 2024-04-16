@@ -1,0 +1,473 @@
+/* Для секции контактов */
+@media (max-width: 1520px) {
+  .contacts__container {
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 30px;
+  }
+
+  .contacts__form {
+    width: 100%;
+  }
+}
+
+/* Для всего 1024px */
+@media (max-width: 1340px) {
+  /* body {
+        background-color: aqua;
+    } */
+
+  /* All */
+  .container {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  /* Header */
+  .header__container {
+    flex-wrap: wrap;
+    padding-top: 35px;
+    padding-bottom: 24px;
+  }
+
+  .header__nav {
+    order: 1;
+  }
+
+  /* Hero */
+  .hero {
+    min-height: 620px;
+    background-image: url(./../img/hero-pic-1024.webp);
+  }
+
+  .hero__container {
+    padding-top: 101px;
+    padding-bottom: 101px;
+  }
+
+  .hero__descr {
+    width: 75%;
+    margin-bottom: 133px;
+  }
+
+  .hero__btn {
+    padding: 23px 35px;
+  }
+
+  /* About */
+  .about__descr {
+    width: 100%;
+  }
+
+  /* Galery */
+  .galery-box {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .galery__title {
+    margin-bottom: 14px;
+  }
+
+  .galery-box__radio {
+    align-self: flex-start;
+  }
+
+  .galery-box__art {
+    width: 100%;
+    align-self: center;
+  }
+
+  /* Catalog */
+  .catalog__descr {
+    width: 100%;
+  }
+
+  .catalog-box__card {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .catalog-box-descr {
+    row-gap: 12px;
+  }
+
+  /* Event */
+  .event-card {
+    padding: 0 34px 100px 34px;
+  }
+
+  .events-box {
+    column-gap: 27px;
+  }
+
+  .events-box__card {
+    min-height: 682px;
+  }
+
+  .event-card__note {
+    text-align: right;
+    margin-bottom: 2px;
+  }
+
+  .event-card__title {
+    margin-bottom: 9px;
+  }
+
+  .events-box__btn {
+    margin-left: 34px;
+  }
+
+  /* Projects */
+  .projects {
+    margin-bottom: 80px;
+  }
+
+  .projects__descr {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .projects__proects {
+    gap: 28px;
+  }
+
+  .projects__proects-el {
+    padding: 26px;
+  }
+
+  /* Contacts */
+  .contacts__container {
+    padding-top: 42px;
+    padding-bottom: 46px;
+    row-gap: 25px;
+  }
+
+  .contacts__adress-title {
+    margin-bottom: 4px;
+  }
+
+  /* Footer */
+  .footer__container {
+    height: 145px;
+  }
+
+  .footer__social svg {
+    width: 60px;
+  }
+}
+
+/* Для секции галерея */
+@media (max-width: 1179px) {
+  /* Galery */
+  .galery-box__art {
+    height: 275px;
+  }
+}
+
+/* Для всего 768px*/
+@media (max-width: 954px) {
+  /* Header */
+
+  /* Hero */
+  .hero {
+    background-image: url(./../img/hero-pic-768.webp);
+  }
+
+  .hero__container {
+    padding-top: 87px;
+    padding-bottom: 84px;
+  }
+
+  .hero__descr {
+    width: 85%;
+    margin-bottom: 131px;
+  }
+
+  /* Galery */
+  .galery {
+    min-height: 566px;
+    padding-bottom: 0;
+  }
+
+  /* Catalog */
+  .catalog-box {
+    row-gap: 51px;
+  }
+
+  .catalog-box-descr {
+    row-gap: 7px;
+  }
+
+  /* Event */
+  .events-box {
+    flex-wrap: wrap;
+    flex-direction: column;
+    row-gap: 31px;
+  }
+
+  .event-card__title {
+    margin-bottom: 15px;
+  }
+
+  .events-box__card {
+    min-height: 527px;
+  }
+
+  .event-card {
+    min-height: 310px;
+  }
+
+  /* Projects */
+  .projects__descr {
+    margin-bottom: 28px;
+  }
+
+  .projects__mintitle {
+    margin-bottom: 30px;
+  }
+
+  .projects__proects-el {
+    padding: 26px 20px;
+  }
+
+  .projects__proects {
+    gap: 33px;
+  }
+
+  /* Contact */
+  .contacts__form {
+    flex-wrap: wrap;
+  }
+}
+
+/* Для Galery и нижней части Projects */
+@media (max-width: 729px) {
+  /* Galery */
+  .galery {
+    padding-top: 50px;
+    min-height: 1240px;
+  }
+
+  .galery-box__art {
+    width: 290px;
+  }
+
+  .galery-box__art-box {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  /* Projects */
+  .projects__proects {
+    flex-direction: column;
+  }
+
+  .projects__proects-el {
+    width: 290px;
+  }
+}
+
+/* Для Contacts формы красной надписи валидации */
+@media (max-width: 659px) {
+  .contacts__btn {
+    padding: 8px 25px;
+    font-size: 12px;
+  }
+
+  .contacts__span-tel {
+    position: absolute;
+    /* display: none; */
+    top: 44px;
+    left: 45px;
+    font-size: 12px;
+    color: #d11616;
+  }
+}
+
+/* Для всего под 320px */
+@media (max-width: 650px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Header */
+  .header__container {
+    min-height: 78px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    row-gap: 12px;
+    column-gap: 50px;
+  }
+
+  .header__logo {
+    width: 97px;
+  }
+
+  .header__logo img {
+    width: 100%;
+  }
+
+  .header__search {
+    width: 18px;
+  }
+
+  .header__search svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .header__nav {
+    /* width: 500px;
+        overflow: auto; */
+    padding-bottom: 8px;
+  }
+
+  .header__nav-list {
+    column-gap: 24px;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .header__nav-link {
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  /* Hero */
+  .hero {
+    min-height: 388px;
+    margin-bottom: 50px;
+  }
+
+  .hero__title {
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 32px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .hero__descr {
+    width: 100%;
+    margin-bottom: 40px;
+    font-size: 12px;
+    line-height: normal;
+    text-align: center;
+  }
+
+  .hero__btn {
+    display: block;
+    margin: 0 auto;
+    padding: 11px 16px;
+    font-size: 12px;
+    line-height: normal;
+  }
+
+  /* About */
+  .about {
+    margin-bottom: 50px;
+  }
+
+  .about__title {
+    font-size: 28px;
+  }
+
+  .about__descr {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  /* Galery */
+  .galery {
+    margin-bottom: 50px;
+  }
+
+  .galery__title {
+    font-size: 28px;
+  }
+
+  /* Catalog */
+  .catalog {
+    margin-bottom: 50px;
+  }
+
+  .catalog__title {
+    font-size: 28px;
+  }
+
+  /* Events */
+  .events {
+    margin-bottom: 50px;
+  }
+
+  .events__title {
+    font-size: 28px;
+  }
+
+  /* Projects */
+  .projects {
+    margin-bottom: 50px;
+  }
+
+  .projects__title {
+    font-size: 28px;
+  }
+
+  .projects__proects-el {
+    width: 250px;
+    padding: 25px 18px;
+  }
+
+  /* Contacts */
+  .contacts {
+    border: none;
+  }
+
+  .contacts__container {
+    padding-top: 0;
+    padding-right: 90px;
+  }
+
+  .contacts__adress-title {
+    font-size: 18px;
+  }
+
+  .contacts__adress-text {
+    font-size: 14px;
+  }
+
+  .contacts__input {
+    width: 250px;
+    padding: 8px 20px;
+  }
+
+  .contacts-social-text {
+    font-size: 18px;
+  }
+
+  /* Footer */
+  .footer__container {
+    min-height: 132px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    flex-direction: column;
+  }
+
+  .footer__logo {
+    width: 97px;
+  }
+
+  .footer__logo img {
+    width: 100%;
+  }
+}
+
+/* Для Contacts формы красной надписи валидации */
+@media (max-width: 480px) {
+  .contacts__container {
+    padding-right: 15px;
+  }
+}
